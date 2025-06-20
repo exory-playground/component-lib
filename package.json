@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@exory-playground/component-lib",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@anio-software/enkore": "^0.0.75",
+    "@anio-software/enkore.core": "^0.11.2",
+    "@anio-software/enkore.target-js": "^0.0.30-canary-9513636a-1c03ec65"
+  }
+}

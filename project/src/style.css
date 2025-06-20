@@ -1,0 +1,12 @@
+button.myButton {
+	border-radius: 20px;
+	background: blue;
+	border: none;
+	padding: 10px 20px;
+	color: white;
+	font-family: Arial;
+}
+
+button.myButton:hover {
+	background: red;
+}

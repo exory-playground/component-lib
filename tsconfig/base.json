@@ -11,7 +11,8 @@
         "skipLibCheck": false,
         "types": [
             "@types/web",
-            "@types/react"
+            "@types/react",
+            "@types/react-dom"
         ],
         "lib": [
             "esnext"

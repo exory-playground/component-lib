@@ -1,12 +1,10 @@
 import {defineConfig} from "@anio-software/enkore"
-import {defineTargetJSConfig} from "@anio-software/enkore.target-js"
+import {defineTargetOptions} from "@anio-software/enkore.target-jsx-web"
 
 export const config: unknown = defineConfig({
 	target: {
-		name: "js",
-		options: defineTargetJSConfig({
-			environment: ["web"],
-
+		name: "jsx-web",
+		options: defineTargetOptions({
 			registry: {
 				"anioSoftware": {
 					url: "https://npm-registry.anio.software",
